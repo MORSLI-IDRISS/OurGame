@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 110662115435442745}
   - component: {fileID: -2517148458420647980}
   - component: {fileID: -98532315755173910}
+  - component: {fileID: 8077022539639217263}
   m_Layer: 0
   m_Name: arrow
   m_TagString: Enemy
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 8.675179, y: 5.483366}
+  m_Offset: {x: 12.123802, y: -0.113287926}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,5 +130,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 33.63682, y: 21.033268}
+  m_Size: {x: 6.011325, y: 9.83996}
   m_EdgeRadius: 0
+--- !u!114 &8077022539639217263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6225963209772094272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e56df03995901f43957325a9e45da85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
