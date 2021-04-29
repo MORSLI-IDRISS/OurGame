@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private bool IsJumping;
      private float verticalMovement,horizontalMovement;
     public GameObject prefab;
+    
     void Update()
     // Update is called once per frame
     {
