@@ -28,15 +28,15 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
 
-            animator.SetBool("IsJumping",true);
+            //animator.SetBool("IsJumping",true);
             float characterVelocity1 = Mathf.Abs(rb.velocity.x);
-            animator.SetFloat("Speed",characterVelocity1);
+           // animator.SetFloat("Speed",characterVelocity1);
         }
         else
         {
-           animator.SetBool("IsJumping",false);   
+           //animator.SetBool("IsJumping",false);   
            float characterVelocity2 = Mathf.Abs(rb.velocity.x);
-           animator.SetFloat("Speed",characterVelocity2);
+          // animator.SetFloat("Speed",characterVelocity2);
       
         }
         if (Input.GetKeyDown(KeyCode.Z))
